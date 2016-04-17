@@ -9,3 +9,5 @@ var personSchema = new Schema ({
 var personModel = mongoose.model('Persons', personSchema);
 
 module.exports = personModel;
+
+//se podria haber hecho en model directamente pero se usa schema para poder agregarle metodos definidos por nosotros
